@@ -33,7 +33,7 @@ func NewAnalyzer() gourmet.Analyzer {
 	return &httpAnalyzer{}
 }
 
-func (ha *httpAnalyzer) Filtery(c *gourmet.Connection) bool {
+func (ha *httpAnalyzer) Filter(c *gourmet.Connection) bool {
 	if c.SourcePort == 80 || c.DestinationPort == 80 {
 		return true
 	}
