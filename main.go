@@ -29,7 +29,7 @@ func (h *Http) Key() string {
 
 type httpAnalyzer struct{}
 
-func NewAnalyzer() *gourmet.Analyzer {
+func NewAnalyzer() gourmet.Analyzer {
 	return &httpAnalyzer{}
 }
 
