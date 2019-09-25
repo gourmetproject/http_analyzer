@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"github.com/kvasirlabs/gourmet"
+	"github.com/gourmetproject/gourmet"
 	"net/http"
 )
 
